@@ -6,8 +6,6 @@ import v.p.threads.SecondThread;
 
 public class Main {
 
-    private volatile static Integer I = 0;
-
     public static void main(String[] args) {
         FirstThread runnable = new FirstThread();
         Thread thread1 = new Thread(runnable);
